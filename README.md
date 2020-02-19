@@ -1,3 +1,2 @@
 <center>## shodan simple API </center>
-you can try it in [api.justhumanz.me].  
-[api.justhumanz.me]: http://api.justhumanz.me  
+you can try it in http://api.justhumanz.me
