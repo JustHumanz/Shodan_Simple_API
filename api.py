@@ -145,7 +145,7 @@ class GetHandler(BaseHTTPRequestHandler):
                 self.send_response(200)
                 self.send_header('Content-type','text/html')
                 self.end_headers()
-                self.wfile.write("<b> Hello World !</b>".encode('utf-8'))
+                self.wfile.write("<b> HI </b> see at <a href='https://github.com/JustHumanz/Shodan_Simple_API' target='_blank'>Github</a> ".encode('utf-8'))
 
         except Exception as e:
             self.send_response(200)

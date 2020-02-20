@@ -1,4 +1,4 @@
-<center>## shodan simple API </center>
+## shodan simple API  
 you can try it in http://api.justhumanz.me/shodan  
 
 find information about public ip address  
