@@ -18,3 +18,6 @@ shodan search query
 
 find active webcam  
 ```api.justhumanz.me/shodan/webcam/ or api.justhumanz.me/shodan/webcam/country/? <country ID>```
+
+#### Example
+[![](https://img.youtube.com/vi/stZSkL_NdQ8/maxresdefault.jpg)](http://www.youtube.com/watch?v=stZSkL_NdQ8 "")
