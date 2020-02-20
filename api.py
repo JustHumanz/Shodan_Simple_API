@@ -71,7 +71,7 @@ class GetHandler(BaseHTTPRequestHandler):
 
             elif re.match(r'\/search\/\?..+$', self.path):
                 parsed_path = parse.urlparse(self.path)
-                results = api.search(parse.unquote(parsed_path.query), limit=50)
+                results = api.search(parse.unquote(parsed_path.query), limit=50) #MAX 50 cuy
                 fix = json.dumps(results['matches'], indent=4, separators=(',', ': '))
                 self.send_response(200)
                 self.send_header('Content-Type',
